@@ -14583,6 +14583,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="CEEW-Assignment">CEEW Assignment<a class="anchor-link" href="#CEEW-Assignment">&#182;</a></h1><h4 id="Using-Excel,-Python,-Jupyter-Notebook,-and-Markdown"><em>Using Excel, Python, Jupyter Notebook, and Markdown</em><a class="anchor-link" href="#Using-Excel,-Python,-Jupyter-Notebook,-and-Markdown">&#182;</a></h4><h4 id="Submitted-by:-Samarth-Narula-(M2022DS043)">Submitted by: <strong>Samarth Narula (M2022DS043)</strong><a class="anchor-link" href="#Submitted-by:-Samarth-Narula-(M2022DS043)">&#182;</a></h4>
+<p style="background-color: #f0f8ff; padding: 10px; border-left: 5px solid #0078D7; margin: 20px 0;">
+  Note: For this placement assignment, I chose to utilize a Jupyter Notebook, integrating Python and Markdown, as my primary tool over a conventional Word document. This decision was driven by the unique capabilities of Jupyter Notebooks in providing a dynamic and interactive environment for data analysis. Unlike static Word documents, Jupyter Notebooks allow for the seamless integration of live code, visualizations, and narrative text, offering a more engaging and illustrative approach to presenting data-driven insights. The use of Python, a powerful programming language widely recognized in data science, enables me to demonstrate practical analytical skills through real-time data manipulation and visualization. Furthermore, by converting the notebook to an HTML format and hosting it on the web, I can retain the rich, interactive nature of the content, making it easily accessible and more impactful for the audience. This approach not only showcases my technical proficiency but also my ability to leverage modern tools for effective data communication and analysis.
+</p>
+
+
+<p style="font-weight: bold">Click to show/hide input code cells</p>
+<button onclick="toggleCode()" title="Click to show/hide input code cells">Toggle Code</button>
 </div>
 </div>
 </div>
@@ -15528,7 +15535,7 @@ Wazirpur, Delhi - DPCC                            221.35  793.65
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Requirement already satisfied: matplotlib in c:\users\samar\anaconda3\lib\site-packages (3.7.2)
+<pre class="hide-pip">Requirement already satisfied: matplotlib in c:\users\samar\anaconda3\lib\site-packages (3.7.2)
 Requirement already satisfied: seaborn in c:\users\samar\anaconda3\lib\site-packages (0.12.2)
 Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\samar\anaconda3\lib\site-packages (from matplotlib) (1.0.5)
 Requirement already satisfied: cycler&gt;=0.10 in c:\users\samar\anaconda3\lib\site-packages (from matplotlib) (0.11.0)
@@ -15816,7 +15823,7 @@ class="
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<div class="jp-RenderedText jp-OutputArea-output hide-pip" data-mime-type="text/plain">
 <pre>Requirement already satisfied: folium in c:\users\samar\anaconda3\lib\site-packages (0.15.1)Note: you may need to restart the kernel to use updated packages.
 
 Requirement already satisfied: branca&gt;=0.6.0 in c:\users\samar\anaconda3\lib\site-packages (from folium) (0.7.0)
@@ -16961,6 +16968,24 @@ class="
 </div>
 
 </div>
+<script>
+  function toggleCode() {
+      var x = document.querySelectorAll('div.highlight > pre');
+      x.forEach(function(el) {
+          if (el.style.display === 'none') {
+              el.style.display = 'block';
+          } else {
+              el.style.display = 'none';
+          }
+      });
+  }
+  </script>
+  
+  
+  
+  
+  
+  
 </body>
 
 

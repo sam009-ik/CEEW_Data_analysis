@@ -52,3 +52,7 @@ img {
 }
 
 /* Add additional custom styles as needed */
+
+.hide-pip {
+    display: none;
+}
